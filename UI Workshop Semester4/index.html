@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billiard Club</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">Billiard Club</div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span><span></span><span></span>
+      </div>
+      <nav id="main-nav">
+        <ul>
+          <li><a href="#home">Beranda</a></li>
+          <li><a href="#about">Tentang</a></li>
+          <li><a href="#lokasi">Lokasi</a></li>
+          <li><a href="#menu">Fasilitas</a></li>
+          <li><a href="#fitur">Fitur</a></li>
+        </ul>
+      </nav>
+      <button class="btn-signup" onclick="location.href='#contact'">Contact</button>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+        <h1>Selamat Datang di Billiard Club</h1>
+        <p>Temukan komunitas para pecinta billiard terbaik di kota ini!
+          Billiard Club bukan hanya tempat bermain — ini adalah rumah bagi mereka yang ingin mengasah kemampuan, berkompetisi, dan menjalin persahabatan.
+          Bergabunglah dengan kami dan rasakan atmosfer kompetitif yang menyenangkan, lengkap dengan fasilitas profesional dan event seru setiap bulannya.</p>
+        <button class="btn-primary">Lihat Menu</button>
+      </div>
+      <div
+        class="hero-image"
+        data-aos="zoom-in"
+        data-aos-delay="300"
+        data-aos-duration="1000"
+      >
+        <img src="assets/Hero.jpg" alt="Hero Image" class="hero-img" />
+      </div>
+    </section>
+
+    <section id="about" class="about bg-light">
+      <div class="section-container" data-aos="fade-up" data-aos-duration="800">
+        <h2>Lebih dari Sekadar Klub, Ini Adalah Keluarga</h2>
+        <p>
+          Billiard Club didirikan dengan semangat untuk menyatukan para pecinta billiard dari berbagai latar belakang.
+          Kami percaya bahwa billiard bukan hanya permainan, tapi juga seni, strategi, dan cara membangun relasi.
+          Dengan fasilitas yang lengkap dan suasana yang nyaman, kami menciptakan ruang bagi siapa pun — baik pemula maupun profesional — untuk belajar, berkembang, dan bersinar.
+
+          Dari latihan rutin, kompetisi internal, hingga event komunitas, kami terus bergerak bersama menuju prestasi dan kesenangan yang seimbang.
+        </p>
+      </div>
+    </section>
+
+    <section class="lokasi bg-dark" id="lokasi">
+      <div class="container">
+        <div class="deskripsi">
+          <h2>Lokasi Kami</h2>
+          <p>
+            Kunjungi Billiard Club kami yang terletak strategis di kawasan kampus Universitas Airlangga - Kampus B.
+            Nikmati suasana nyaman dan fasilitas lengkap untuk latihan atau sekadar bersantai bareng teman.
+          </p>
+          <p><strong>Alamat:</strong> Jl. Dharmawangsa, Surabaya</p>
+          <p><strong>Jam Buka:</strong> Setiap hari, pukul 10.00 - 23.00 WIB</p>
+        </div>
+        <div class="peta">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.7251743554098!2d112.75613117532515!3d-7.272081871458701!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fbd38ea51a2f%3A0x2640d21feb8c9fd8!2sUniversitas%20Airlangga%20-%20Kampus%20Dharmawangsa%20(B)!5e0!3m2!1sid!2sid!4v1744948033087!5m2!1sid!2sid" 
+            width="100%" 
+            height="300" 
+            style="border:0; border-radius: 10px;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+
+    <section id="menu" class="menu bg-light">
+      <div class="section-container">
+        <h2 data-aos="fade-up" data-aos-duration="800">Fasilitas</h2>
+        <div class="menu-grid">
+          <div
+            class="menu-item"
+            data-aos="flip-left"
+            data-aos-delay="100"
+            data-aos-duration="800"
+          >
+            <img src="assets/Meja.jpg" alt="Meja Biliard" />
+            <h3>Meja Biliard</h3>
+            <p>
+              Kami memiliki Meja Billiard yang bagus dan keren
+            </p>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="flip-left"
+            data-aos-delay="300"
+            data-aos-duration="800"
+          >
+            <img src="assets/Pelatih.jpg" alt="Pelatih" />
+            <h3>Pelatih/Coaching</h3>
+            <p>Kami juga Menyediakan Pelatih yang Profesional tentunya</p>
+          </div>
+          <div
+            class="menu-item"
+            data-aos="flip-left"
+            data-aos-delay="500"
+            data-aos-duration="800"
+          >
+            <img src="assets/Turnament.jpg" alt="Turnament" />
+            <h3>Turnamen Rutin</h3>
+            <p>Kami menyediakan Turnamen Rutin setiap satu bulan sekali</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="fitur" class="kenapa-toscia bg-dark">
+      <div class="container">
+        <div class="photo" data-aos="fade-right" data-aos-duration="800">
+          <img src="assets/Fitur.jpg" alt="Fitur" class="photo-img" />
+        </div>
+        <div class="description" data-aos="fade-left" data-aos-duration="800">
+          <h2>Fitur dan Penawaran</h2>
+          <p>
+            Billirad Club Unair kami menawarkan fitur yang menarik
+          </p>
+          <ul class="features-list">
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="fas fa-check-circle"></i>
+              <strong>Pinjaman alat</strong> - Kalian bisa minjam stik
+            </li>
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="fas fa-check-circle"></i>
+              <strong>Kelas Dasar Untuk Pemula</strong> - Yang mulai dari 0 bisa banget nih
+            </li>
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="fas fa-check-circle"></i>
+              <strong>Komunitas</strong> - Komunitasnya seru-seru dan solid lho
+            </li>
+          </ul>
+          <button class="btn-primary" data-aos="fade-up" data-aos-delay="500">
+            Pelajari Selengkapnya
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact bg-light">
+      <div class="section-container" data-aos="fade-up" data-aos-duration="800">
+        <h2>Hubungi Kami</h2>
+        <p>Kirimkan pesan untuk informasi lebih lanjut!</p>
+        <form id="contact-form">
+          <div class="form-group">
+            <input type="text" placeholder="Nama" required />
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="Email" required />
+          </div>
+          <div class="form-group">
+            <textarea placeholder="Pesan" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>&copy; Billirad Club</p>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- AOS Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Component JS files -->
+    <script src="js/components/navigation.js"></script>
+    <script src="js/components/animation.js"></script>
+    <script src="js/components/formHandler.js"></script>
+    <script src="js/components/scrollEffects.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
